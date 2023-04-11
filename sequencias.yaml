@@ -1,0 +1,15 @@
+roles:
+  - webserver
+  - database
+
+### ERRO ###
+# - payload
+#   - bitcoin
+#   -
+#   - ethereum
+
+payload:
+  - bitcoin
+  - ethereum
+
+payload2: [bitcoin, ethereum]

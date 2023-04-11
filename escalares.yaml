@@ -1,0 +1,24 @@
+host: geek # "geek" - aspas são opcionais
+datacenter:
+  router: 42 # Chave: String, Valor: Inteiro - escalar
+  switch: "34" # Se um valor inteiro não for usado para cálculo, é preferivel informá-lo como string "34"
+# Sequência
+roles:
+  - webserver
+  - database
+funcionamento: | # Apresenta os dados por linha para a aplicação
+  segunda - das 08:00 às 17:00
+  terça - das 09:00 às 18:00
+  quarta - das 10:00 às 19:00
+  quinta - das 11:00 às 20:00
+  sexta - das 12:00 às 21:00
+  sábado - das 13:00 ás 22:00
+  domingo - das 14:00 às 23:00
+comentarios: > # Apresenta os dados em uma única linha para a aplicação
+  Temos alto uso de CPU
+  desde 04/10/2020.
+  Estamos investigando
+
+
+    Felicity Jones
+    felicity@gmail.com

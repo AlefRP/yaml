@@ -1,0 +1,7 @@
+host: geek
+datacenter:
+  location: &SP São Paulo # Ancoras são para armazenar e reutilizar dados
+---
+host: udemy
+datacenter:
+  location: &SP
